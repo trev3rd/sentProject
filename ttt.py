@@ -1,6 +1,6 @@
 from nltk.tokenize import sent_tokenize, word_tokenize
-
-f = open('plu.txt')
+fileName = input("Enter file name: ")
+f = open(fileName)
 raw = f.read()
 
 
