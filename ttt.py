@@ -12,7 +12,7 @@ average =int(len(acceptable_words)/len(sent_tokenize(text)))#dividing
 if text   ((".txt")):
     print(sent_tokenize(text))#all sentnces that end with (.!?)
     print(tokenizer.tokenize(text))#all words outputed
-    print(acceptable_words)#is words 3 letters or more
+    print(acceptable_words)#is words 3 letters or more.
     print('number of sentences equal',len(sent_tokenize(text)))
     print('number of words equal',len(tokenizer.tokenize(text)))
     print('number of acceptable words is',len(acceptable_words))
